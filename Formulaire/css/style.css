@@ -1,0 +1,11 @@
+/* Style.css */
+/*Programmé par Pascal Savard*/
+/*Le 7 octobre 2018*/
+
+.container-fluid{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+}

@@ -1,0 +1,145 @@
+<!-- recherche.html -->
+<!-- Par Pascal Savard -->
+<!-- Le 21 octobre 2018 -->
+
+<!DOCTYPE html>
+<html lang="fr-ca">
+<head>
+	<title>Recherche</title>
+   	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   	<meta charset="UTF-8">
+   	<link rel="stylesheet" type="text/css" href="Bootstrap/css/bootstrap.css">
+   	<link rel="stylesheet" type="text/css" href="css/style.css">
+   	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+
+</head>
+<body>
+
+
+	<div class="row align-items-center">
+		<div class="col-md-8 text-center ">
+	    <img src="images/IMMOX_SEUL_sanstexte.png" class="img-fluid" alt="Responsive image">
+		</div>
+		<div class="col-md-4">
+			<p>Coordonnées1<br>
+			Coordonnées2<br>
+			Coordonnées3<br>
+			</p>
+        </div>
+	</div>
+
+	<div class="row align-items-center">
+		<div class="offset-md-1 col-md-10">
+			<h1>Recherche d'un forfait voyage</h1>
+        </div>
+	</div>
+
+	<div class="container">
+		<form>
+		  <div class="form-row align-items-center">
+		    <div class="col-md-3 my-1">
+		      <label class="sr-only" for="inlineFormInputName">Prénom</label>
+		      <input type="text" class="form-control" id="inlineFormInputName" placeholder="Prénom">
+		    </div>
+		    <div class="col-md-3 my-1">
+		      <label class="sr-only" for="inlineFormInputName">Nom</label>
+		      <input type="text" class="form-control" id="inlineFormInputName" placeholder="Nom">
+		    </div>
+		    <div class="col-md-6 my-1">
+		      <label class="sr-only" for="inlineFormInputName">Adresse</label>
+		      <input type="text" class="form-control" id="inlineFormInputName" placeholder="Adresse">
+		    </div>
+		  </div>
+
+		  <div class="form-row align-items-center">
+		    <div class="col-md-5 my-1">
+		      <label class="sr-only" for="inlineFormInputName">Ville</label>
+		      <input type="text" class="form-control" id="inlineFormInputName" placeholder="Ville">
+		    </div>
+		    <div class="col-md-2 my-1">
+		      <label class="sr-only" for="inlineFormInputName">Code Postal</label>
+		      <input type="text" class="form-control" id="inlineFormInputName" placeholder="Code Postal">
+		    </div>
+		    <div class="col-md-5 my-1">
+		      <label class="sr-only" for="inlineFormInputName">Téléphone</label>
+		      <input type="text" class="form-control" id="inlineFormInputName" placeholder="Téléphone">
+		    </div>
+		  </div>
+		</form>
+	</div>
+		<br>
+	<div class="container">
+		<form>
+		  	<div class="form-group row">
+				<label for="exampleFormControlSelect1" class="col-md-3 col-form-label">Destination souhaitée</label>
+				<select class="col-md-9 form-control" id="exampleFormControlSelect1">
+					<option>Hawai</option>
+					<option>Thailand</option>
+					<option>Alaska</option>
+					<option>Mexique</option>
+					<option>Émira Arabe</option>
+					<option>Japon</option>
+				</select>
+			</div>
+
+			<div class="form-group row">
+				<label for="example-date-input" class="col-2 col-form-label">Départ</label>
+				<div class="col-4">
+			    	<input class="form-control" type="date" value="2011-08-19" id="example-date-input">
+		 		</div>
+		 		<label for="example-date-input" class="col-2 col-form-label">Retour</label>
+				<div class="col-4">
+					<input class="form-control" type="date" value="2011-08-19" id="example-date-input">
+		 		</div>
+			</div>
+
+			<div class="form-group row">
+			  <label for="example-number-input" class="col-2 col-form-label">Nombre d'adultes</label>
+			  <div class="col-1">
+			    <input class="form-control" type="number" value="2" id="example-number-input">
+			  </div>
+			  <label for="example-number-input" class="col-2 col-form-label">Nombre d'enfants</label>
+			  <div class="col-1">
+			    <input class="form-control" type="number" value="2" id="example-number-input">
+			  </div>
+			   	<label for="example-number-input" class="col-2 col-form-label">Mode de tranport</label>
+			  	<div class="form-check form-check-inline">
+				  <label class="form-check-label">
+				    <input class="form-check-input" type="radio" name="exampleRadios" id="inlineCheckbox1" value="option1">Avion
+				  </label>
+				</div>
+				<div class="form-check form-check-inline">
+				  <label class="form-check-label">
+				    <input class="form-check-input" type="radio" name="exampleRadios" id="inlineCheckbox2" value="option2">Train
+				  </label>
+				</div>
+			</div>
+						<div class="form-group row">
+				<label for="example-number-input" class="col-2 col-form-label">Type de sièges</label>
+				  	<div class="form-check form-check-inline">
+					  <label class="form-check-label">
+					    <input class="form-check-input" type="radio" name="exampleRadios" id="inlineCheckbox1" value="option1">Première classe
+					  </label>
+					</div>
+					<div class="form-check form-check-inline">
+					  <label class="form-check-label">
+					    <input class="form-check-input" type="radio" name="exampleRadios" id="inlineCheckbox2" value="option2">Classe économique
+					  </label>
+					</div>
+				</div>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5504.431995337625!2d-72.52736844131725!3d46.38494085886121!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cc7c878d5f8aaef%3A0x4e68cd65445b729c!2sMarmen+Inc.!5e0!3m2!1sfr!2sca!4v1540157672013" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+			<button type="submit" class="btn btn-primary">Soumettre</button>
+		</form>
+
+
+
+	</div>
+
+
+
+	<script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js" integrity="sha384-kW+oWsYx3YpxvjtZjFXqazFpA7UP/MbiY4jvs+RWZo2+N94PFZ36T6TFkc9O3qoB" crossorigin="anonymous"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="Bootstrap/js/bootstrap.js"></script>
+</body>
+</html>
