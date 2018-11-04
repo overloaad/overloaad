@@ -1,0 +1,166 @@
+/* Style.css */
+/*Programmé par Pascal Savard*/
+/*Le 3 novembre 2018*/
+
+
+html,body { margin:0; height:100%;}
+
+.parallaxzone1 { 
+    /* L’image du Parallax */
+	background-image: url("../images/Dinosaure.jpg");
+
+    /* L’hauteur du Parallax */
+	height: 100%; 
+
+    /* Création de l’effet */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.zone1 {
+	height:100%;
+}
+
+.zone1top {
+	height:50%;
+}
+
+.zone1middle {
+
+	background-color: black;
+	color: white;
+	height:25%;
+	opacity: 0.5;
+	padding-top: 10px;
+}
+
+
+.zone1bottom {
+	font-size: 50px;
+	margin: auto;
+	background-color: white;
+	height:15%;
+	opacity: 0.5;
+		padding-top: 5px;
+}
+
+.parallaxzone3 { 
+    /* L’image du Parallax */
+	background-image: url("../images/friends.jpg");
+
+    /* L’hauteur du Parallax */
+	height: 300px; 
+
+    /* Création de l’effet */
+    	color: white;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.parallaxzone4 { 
+    /* L’image du Parallax */
+	background-image: url("../images/fight.jpg");
+
+    /* L’hauteur du Parallax */
+	height: 500px; 
+
+    /* Création de l’effet */
+    	color: white;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.bloc1 {
+	background-color: lightgreen;
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+.bloc2 {
+	background-color: lightpink;
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+.bloc3 {
+	background-color: lightblue;
+	color: white;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+.btn-warning {
+	margin-bottom: 20px;
+
+}
+
+.paddingh1 {
+	margin-top: 10px;
+
+}
+
+.marginfossile {
+	margin-top: 25px;
+
+}
+
+.vertical-center {
+  height: 100%;
+  align-items: center;
+}
+
+@media only screen and (max-width: 480px){
+.parallaxzone1 { 
+	/* L’image du Parallax */
+	background-image: url("../images/DinosaureRedim.jpg");
+
+	/* L’hauteur du Parallax */
+	height: 100%; 
+
+	/* Création de l’effet */
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.zone1bottom {
+	font-size: 35px;
+	margin: auto;
+	background-color: white;
+	height:15%;
+	opacity: 0.5;
+	padding-top: 5px;
+}
+.parallaxzone3 { 
+	/* L’hauteur du Parallax */
+	height: 100%; 
+}
+
+.parallaxzone4 { 
+	/* L’hauteur du Parallax */
+	height: 100%; 
+	
+}
+
+}
+
+/* TABLETTES */
+@media screen and (min-width: 481px) and (max-width: 1199px) {
+.zone1bottom {
+	font-size: 35px;
+	margin: auto;
+	background-color: white;
+	height:15%;
+	opacity: 0.5;
+	padding-top: 5px;
+}
+}
