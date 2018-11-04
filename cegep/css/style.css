@@ -118,6 +118,7 @@ html,body { margin:0; height:100%;}
 }
 
 @media only screen and (max-width: 480px){
+html,body { margin:0; height:100%;}
 .parallaxzone1 { 
 	/* L’image du Parallax */
 	background-image: url("../images/DinosaureRedim.jpg");
@@ -141,14 +142,33 @@ html,body { margin:0; height:100%;}
 	padding-top: 5px;
 }
 .parallaxzone3 { 
-	/* L’hauteur du Parallax */
+    /* L’image du Parallax */
+	background-image: url("../images/friends.jpg");
+
+    /* L’hauteur du Parallax */
 	height: 100%; 
+
+    /* Création de l’effet */
+    color: white;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .parallaxzone4 { 
-	/* L’hauteur du Parallax */
+    /* L’image du Parallax */
+	background-image: url("../images/fight.jpg");
+
+    /* L’hauteur du Parallax */
 	height: 100%; 
-	
+
+    /* Création de l’effet */
+    color: white;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 }
